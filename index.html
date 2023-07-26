@@ -27,7 +27,7 @@
         }
     </style>
 </head>
-<body class=".font_lato">
+<body id="home" class=".font_lato">
     <header class="container mx-auto p-5 py-5">
           <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -36,29 +36,29 @@
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
                 <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Education</a></li>
-                    <li><a href="">Experience</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
               </div>
               <a class="btn btn-ghost normal-case text-2xl">Ashfakul Islam</a>
             </div>
             <div class="navbar-end hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-xl">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Education</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>
     </header>
     <main class="container mx-auto p-5">
         <!-- BANNER -->
-        <section class="lg:my-10">
+        <section id="aboutme" class="lg:my-10">
             <div class="hero py-10 bg-base-200">
                 <div class="hero-content flex-col lg:flex-row">
                   <img src="./image/IMG_9138.png" class="max-w-sm rounded-lg shadow-2xl" />
@@ -71,12 +71,12 @@
               </div>
         </section>
         <!-- EDUCATION -->
-        <section class="lg:my-32">
-            <div class="hero lg:h-[800px] " style="background-image: url(./image/education-img.jpg);">
-                <div class="hero-overlay bg-opacity-60"></div>
+        <section id="education" class="lg:my-32">
+            <div class="hero lg:h-[880px] " style="background-image: url(./image/education-img.jpg);">
+                <div class="hero-overlay bg-opacity-90"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="py-6">
-                    <h1 class="text-6xl font-extrabold ">My Education</h1>
+                    <h1 class="text-6xl font-extrabold mb-5 ">My Education</h1>
                     <!-- Content -->
                     <div class="grid py-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
                         <div class="card bg-base-100 shadow-xl">
@@ -128,6 +128,44 @@
                                 <p class="text-2xl font-bold">Programming Hero</p>
                             </div>
                         </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+        </section>
+        <!-- experience -->
+        <section id="experience" class="lg:my-32">
+            <div class="hero lg:h-[680px] " style="background-image: url(./image/experience-img.jpg);">
+                <div class="hero-overlay bg-opacity-90"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="py-6">
+                    <h1 class="text-6xl font-extrabold mb-5 ">My Experience</h1>
+                    <!-- Content -->
+                    <div class="grid py-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+                        <div class="card bg-base-100 shadow-xl">
+                            <div class="card-body items-center text-center">
+                                <h2 class="text-4xl font-extrabold mb-5">Food and Beverage Department</h2>
+                                <p class="text-2xl font-bold">On call</p>
+                                <p class="text-2xl font-bold">Pan Pacific Sonargaon</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-base-100 shadow-xl">
+                            <div class="card-body items-center text-center">
+                                <h2 class="text-4xl font-extrabold mb-5">Front Office Guest Service Agent Trainee  </h2>
+                                <p class="text-2xl font-bold mb-5">6 Months</p>
+                                <p class="text-2xl font-bold">Sea Pearl Beach Resort and Spa</p>
+                            </div>
+                        </div>
+
+                        <div class="card bg-base-100 shadow-xl">
+                            <div class="card-body items-center text-center">
+                                <h2 class="text-4xl font-extrabold mb-5">Guest service </h2>
+                                <p class="text-2xl font-bold mb-5">AUPF-2019</p>
+                                <p class="text-2xl font-bold">Daffodil International University</p>
+                            </div>
+                        </div>
+
                     </div>
                   </div>
                 </div>
