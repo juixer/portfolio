@@ -171,7 +171,53 @@
                 </div>
               </div> 
         </section>
-
+        <!-- Contact -->
+        <section id="contact" class="lg:my-32">
+            <div class="hero lg:h-[500px] " style="background-image: url(./image/quotes-bg.jpg);">
+                <div class="hero-overlay bg-opacity-80"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-5xl font-bold">Contact Me</h1>
+                    <div class="flex flex-col gap-5 md:flex-row lg:flex-row lg:space-x-10">
+                        <div class="text-blue-400">
+                            <a href="https://www.facebook.com/A.i.Sh4nto" target="_blank" class="text-8xl"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="text-amber-400">
+                            <a href="https://www.instagram.com/a.i.sh4nto/" target="_blank" class="text-8xl"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="text-emerald-400">
+                            <!-- You can open the modal using ID.showModal() method -->
+                            <button class="text-8xl" onclick="email.showModal()"><i class="fa-solid fa-envelope"></i></button>
+                            <dialog id="email" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                <h3 class="font-bold text-lg">Hello! Here is My Email</h3>
+                                <p class="py-4">r4pido3@gmail.com</p>
+                            </form>
+                            </dialog>
+                        </div>
+                        <div class="text-sky-400">
+                            <a href="https://twitter.com/A_i_Shanto" target="_blank" class="text-8xl"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="text-teal-400">
+                            <a href="https://www.linkedin.com/in/ashfakul-islam-a56236183/" target="_blank" class="text-8xl"><i class="fa-brands fa-linkedin"></i></i></a>
+                        </div>
+                        <div class="text-indigo-400">
+                             <!-- You can open the modal using ID.showModal() method -->
+                             <button class="text-8xl" onclick="discord.showModal()"><i class="fa-brands fa-discord"></i></button>
+                             <dialog id="discord" class="modal">
+                             <form method="dialog" class="modal-box">
+                                 <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                 <h3 class="font-bold text-lg">Hello! Here is My Discord Username</h3>
+                                 <p class="py-4">juixer</p>
+                             </form>
+                             </dialog>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
     </main>
 </body>
 </html>
